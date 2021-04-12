@@ -65,8 +65,9 @@ html
 	-webkit-box-shadow: inset 0px 0px 8px 2px rgba(0,0,0,0.64);
 	-moz-box-shadow: inset 0px 0px 8px 2px rgba(0,0,0,0.64);
 	box-shadow: inset 0px 0px 8px 2px rgba(0,0,0,0.64);	
-	margin: 30px 10px 1px 10px;
+	margin: 20px 3px 0px 3px;
 	width: 100%;
+	font-size: 15px;
 }
 
 .sticky
@@ -91,7 +92,7 @@ html
 .portfolio
 {
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 70px;
 	margin-bottom: 70px;
 	font-size: 46px;
 	color: var(--mainColor);	
@@ -115,13 +116,26 @@ html
 	color: var(--mainColor);	
 }
 
-.contact
+/* .contact
 {
 	text-align: center;
 	margin-bottom: 70px;
 	margin-top: 70px;
 	font-size: 46px;
 	color: var(--mainColor);	
+} */
+
+.contact
+{
+	text-align: left;
+	/* margin-bottom: 10px;
+	margin-top: 10px; */
+	font-size: 18px;
+	color: var(--mainColor);	
+	/* text-shadow: 2px 3px 4px #000000; */
+	padding: 16px;
+	font-weight: bold;
+	/* background: rgba(0, 0, 0, 0.4); */
 }
 
 .contactProject
@@ -136,25 +150,72 @@ html
 
 .aboutMeText
 {
-	margin: 0px 60px 10px 60px;/*g,p,d,l*/
+	margin: 0px 60px 30px 60px;/*g,p,d,l*/
 	color: var(--mainColor);
-	font-size: 17px;
+	font-size: 18px;
 	text-align: justify;
+	font-family: 'Roboto', sans-serif;
 }
 
 .textInCard
 {
 	color: var(--mainColor);	
+	font-family: 'Roboto', sans-serif;
 }
 
-.project
+.certificate
 {
-	
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/* .project
+{
 	border: 1px solid #b8babf;
 	position: relative;
+	overflow: hidden;
+} */
+
+/* //////////////////////////////////////////////// */
+.containerProject
+{
+	position: relative;
+	overflow: hidden;
 }
 
-.seeText
+.projectTitle {
+	position: absolute; 
+	bottom: 0; 
+	/* background: rgb(0, 0, 0); */
+	background: rgba(0, 0, 0, 0.4); /* Black see-through */
+	color: #f1f1f1; 
+	width: 100%;
+	/* transition: .5s ease;
+	opacity:0;
+	color: white;*/
+	font-size: 18px;
+	padding: 15px;
+	text-align: center;
+	text-shadow: 2px 3px 4px #000000;
+}
+/* border: 1px solid #b8babf;
+background-color: #efefef;
+color: var(--mainColor);
+text-align: center;
+padding: 10px;
+position: absolute;
+opacity: 0;
+transition: opacity 0.5s ease-in-out; */
+
+/* /////////////////////////////////////////////// */
+
+
+.paddingDefault
+{
+	padding: 0px;
+}
+
+/* .seeText
 {
 	position: absolute;
 	color: #fff;
@@ -164,7 +225,7 @@ html
     text-transform: uppercase;
 	margin-bottom: 23%;
 	text-shadow: 2px 3px 4px #000000;
-}
+} */
 
 .photoProject
 {
@@ -172,7 +233,7 @@ html
 	height: 100%;
 }
 
-.boxText
+/* .boxText
 {
     width: 100%;
     height: 100%;
@@ -181,39 +242,53 @@ html
     justify-content: center;
     transition: opacity 0.5s ease-in-out;
     opacity: 0;
-}
+} */
 
-.photoProject:hover .boxText{
-	transition: opacity 1.0s ease-in-out;
+.photoProject:hover .boxText
+{
+	transition: opacity 0.5s ease-in-out;
 	opacity: 1;
 }
 
 .project2
 {
 	opacity: 1;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
 	-moz-transition: opacity 0.5s ease-in-out;
     -webkit-transition: opacity 0.5s ease-in-out;
+	transition: transform 0.2s ease-in-out;
 }
 
 .project2:hover
 {
 	opacity: 0.6;
+	-webkit-transform: scale(1.02);
+	-ms-transform: scale(1.02);
+	transform: scale(1.02);
 }
 
-.project3
+/* .projectTitle
 {
+	border: 1px solid #b8babf;
 	background-color: #efefef;
 	color: var(--mainColor);
 	text-align: center;
-	padding: 40px;
+	padding: 10px;
+	position: absolute;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
 }
+
+.projectTitle:hover
+{
+	opacity: 0.8;
+} */
 
 .contactIcon
 {
 	color: var(--mainColor);
 	text-align: center;
-	font-size: 50px;
+	font-size: 18px;
 	margin-bottom: 10px;
 }
 
@@ -221,7 +296,7 @@ html
 {
 	color: var(--mainColor);
 	text-align: center;
-	font-size: 20px;
+	font-size: 24px;
 	text-decoration: none;
 }
 
@@ -229,28 +304,44 @@ html
 {
 	color: var(--mainColor);
 	text-align: center;
-	font-size: 20px;
+	font-size: 24px;
 	text-decoration: none;
+}
+
+/* .contactInscription2
+{
+	border: 1px solid #b8babf;
+	background-color: #efefef;
+	padding: 10px 0;
+} */
+
+.contactInscription
+{
+	/* border: 1px solid #b8babf; */
+	/* background-color: #efefef; */
+	padding: 10px 30px;
 }
 
 .contactBox
 {
 	border: 1px solid #b8babf;
 	background-color: #efefef;
-	padding: 40px 0;
-	transition: transform 0.5s ease-in-out;
+	padding: 10px 0;
+	transition: transform 0.2s ease-in-out;
 }
 
 .contactBox:hover
 {
-	-webkit-transform: scale(1.04);
-	-ms-transform: scale(1.04);
-	transform: scale(1.04);
+	-webkit-transform: scale(0.95);
+	-ms-transform: scale(0.95);
+	transform: scale(0.95);
 }
 
 .contactBigBox
 {
-	margin-bottom: 70px;
+	/* margin-bottom: 70px; */
+	margin-bottom: 0px;
+	margin-top: 100px;
 }
 
 .projectCompetitions
@@ -327,13 +418,40 @@ html
 	margin-left: 15px;
 }
 
+.degrees
+{
+	padding-left: 25px;
+	margin-bottom: 0px;
+}
+
+.education
+{
+	padding-left: 25px;
+	margin-bottom: 0px;
+}
+
+.subsection
+{
+	margin-bottom: 0px;	
+}
+
 @media only screen and (max-width: 960px) 
 {
   .aboutMeText
   {
 	font-size: 16px;
 	text-align: center;
-   }
+  }
+
+  .portfolio
+  {
+	  margin-top: 30px;	
+  }
+
+  .photo
+  {
+	margin-top: 50px;
+  }
   
   .project
   {
@@ -343,6 +461,11 @@ html
   }
   
   .contact
+  {
+	margin-top: 40px;
+  }
+
+  .contactBigBox
   {
 	margin-top: 40px;
   }

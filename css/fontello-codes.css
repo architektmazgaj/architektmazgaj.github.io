@@ -1,14 +1,12 @@
-@charset "UTF-8";
 
- 
-.icon-home:before { content: '\2302'; } /* '⌂' */
-.icon-down-dir:before { content: '\25be'; } /* '▾' */
-.icon-mail:before { content: '\2709'; } /* '✉' */
-.icon-edit:before { content: '\e062'; } /* '' */
-.icon-phone:before { content: '\e065'; } /* '' */
-.icon-linkedin:before { content: '\e081'; } /* '' */
+.icon-home:before { content: '\e800'; } /* '' */
+.icon-down-dir:before { content: '\e801'; } /* '' */
+.icon-mail:before { content: '\e802'; } /* '' */
+.icon-edit:before { content: '\e803'; } /* '' */
+.icon-phone:before { content: '\e804'; } /* '' */
+.icon-linkedin:before { content: '\e805'; } /* '' */
 .icon-location:before { content: '\f031'; } /* '' */
-.icon-instagram:before { content: '\f16d'; } /* '' */
-.icon-facebook-squared:before { content: '\f308'; } /* '' */
-.icon-linkedin-rect:before { content: '\f31b'; } /* '' */
-.icon-calendar:before { content: '📅'; } /* '\1f4c5' */
+.icon-doc-text-inv:before { content: '\f15c'; } /* '' */
+.icon-facebook-official:before { content: '\f230'; } /* '' */
+.icon-instagram:before { content: '\f32d'; } /* '' */
+.icon-calendar:before { content: '\f4c5'; } /* '' */
