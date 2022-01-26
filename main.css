@@ -169,6 +169,11 @@ html
 	text-decoration: none;
 }
 
+.avatar
+{
+	margin-top: -5rem;
+}
+
 /* .oko
 {
 	color: red;
@@ -435,9 +440,16 @@ h3.title {
 
 .detailIcon
 {
-	font-size: 20px;
+	font-size: 18px;
 	padding: 12px;
 	font-family: 'Roboto', sans-serif;
+}
+
+.detailIcon2
+{
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 38px;
 }
 
 .projectLine
