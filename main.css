@@ -116,26 +116,13 @@ html
 	color: var(--mainColor);	
 }
 
-/* .contact
-{
-	text-align: center;
-	margin-bottom: 70px;
-	margin-top: 70px;
-	font-size: 46px;
-	color: var(--mainColor);	
-} */
-
 .contact
 {
 	text-align: left;
-	/* margin-bottom: 10px;
-	margin-top: 10px; */
 	font-size: 18px;
 	color: var(--mainColor);	
-	/* text-shadow: 2px 3px 4px #000000; */
 	padding: 16px;
 	font-weight: bold;
-	/* background: rgba(0, 0, 0, 0.4); */
 }
 
 .contactProject
@@ -174,20 +161,6 @@ html
 	margin-top: -5rem;
 }
 
-/* .oko
-{
-	color: red;
-	background-color: blue;
-} */
-
-/* .project
-{
-	border: 1px solid #b8babf;
-	position: relative;
-	overflow: hidden;
-} */
-
-/* //////////////////////////////////////////////// */
 .containerProject
 {
 	position: relative;
@@ -197,13 +170,9 @@ html
 .projectTitle {
 	position: absolute; 
 	bottom: 0; 
-	/* background: rgb(0, 0, 0); */
 	background: rgba(0, 0, 0, 0.4); /* Black see-through */
 	color: #f1f1f1; 
 	width: 100%;
-	/* transition: .5s ease;
-	opacity:0;
-	color: white;*/
 	font-size: 18px;
 	padding: 15px;
 	text-align: center;
@@ -211,45 +180,24 @@ html
 }
 
 .title {
-	/* position: absolute;  */
 	bottom: 0; 
-	/* background: rgb(0, 0, 0); */
 	background: rgba(0, 0, 0, 0.5); /* Black see-through */
 	color: #f1f1f1; 
 	width: 100%;
-	/* transition: .5s ease;
-	opacity:0;
-	color: white;*/
 	font-size: 18px;
 	padding: 15px;
 	text-align: center;
 	text-shadow: 2px 3px 4px #000000;
-	
 }
 
 h3.title {
 	margin: 0;
 }
 
-/* /////////////////////////////////////////////// */
-
-
 .paddingDefault
 {
 	padding: 0px;
 }
-
-/* .seeText
-{
-	position: absolute;
-	color: #fff;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    text-transform: uppercase;
-	margin-bottom: 23%;
-	text-shadow: 2px 3px 4px #000000;
-} */
 
 .projectDescritpion
 {
@@ -262,17 +210,6 @@ h3.title {
     width: 100%;
 	height: 100%;
 }
-
-/* .boxText
-{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    transition: opacity 0.5s ease-in-out;
-    opacity: 0;
-} */
 
 .photoProject:hover .boxText
 {
@@ -296,23 +233,6 @@ h3.title {
 	-ms-transform: scale(1.02);
 	transform: scale(1.02);
 }
-
-/* .projectTitle
-{
-	border: 1px solid #b8babf;
-	background-color: #efefef;
-	color: var(--mainColor);
-	text-align: center;
-	padding: 10px;
-	position: absolute;
-	opacity: 0;
-	transition: opacity 0.5s ease-in-out;
-}
-
-.projectTitle:hover
-{
-	opacity: 0.8;
-} */
 
 .contactIcon
 {
@@ -338,17 +258,8 @@ h3.title {
 	text-decoration: none;
 }
 
-/* .contactInscription2
-{
-	border: 1px solid #b8babf;
-	background-color: #efefef;
-	padding: 10px 0;
-} */
-
 .contactInscription
 {
-	/* border: 1px solid #b8babf; */
-	/* background-color: #efefef; */
 	padding: 10px 30px;
 }
 
@@ -369,7 +280,6 @@ h3.title {
 
 .contactBigBox
 {
-	/* margin-bottom: 70px; */
 	margin-bottom: 0px;
 	margin-top: 100px;
 }
@@ -415,7 +325,6 @@ h3.title {
     font-weight: 700;
     font-size: 20px;
     text-transform: uppercase;
-	/* margin-bottom: 40%; */
 	text-shadow: 2px 3px 4px #000000;
 }
 
